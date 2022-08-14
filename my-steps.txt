@@ -159,7 +159,9 @@ git push -u origin main
 
 
 ### Step 6
-
+$ git add .
+$ git commit -m "second commit"
+git push
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***

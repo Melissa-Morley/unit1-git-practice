@@ -150,18 +150,12 @@ $ git init
 Reinitialized existing Git repository in C:/Users/Henry Morley/Desktop/unit1-git-practice/.git/
 
 $ git add .
+$ git commit -m "first commit"
 
 ### Step 5
-$ git commit -m "first commit for unit 1"
-[master (root-commit) a0ff35e] first commit for unit 1
- 7 files changed, 315 insertions(+)
- create mode 100644 GitHub Logo.png
- create mode 100644 LinkedIn Logo.png
- create mode 100644 Unit 1 Practice image.jpg
- create mode 100644 index.html
- create mode 100644 some-words.css
- create mode 100644 some-words.html
- create mode 100644 style.css
+git remote add origin https://github.com/Melissa-Morley/unit1-git-practice.git
+git branch -M main
+git push -u origin main
 
 
 ### Step 6
